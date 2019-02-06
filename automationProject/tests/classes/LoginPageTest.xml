@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite thread-count="5" name="LoginPageTest">
+	<parameter name="className" value="LoginPageTest" />
+	<test name="Login Page Test Suite">
+		<parameter name="testName" value="LoginPageTest" />
+		<parameter name="testCategory" value="LoginPageTest" />
+		<classes>
+			<class name="com.automationProject.test.LoginPageTests"></class>
+		</classes>
+	</test>
+</suite>

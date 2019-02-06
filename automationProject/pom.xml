@@ -1,17 +1,18 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>com</groupId>
-  <artifactId>automationProject</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+	<groupId>com</groupId>
+	<artifactId>automationProject</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 
-  <name>automationProject</name>
-  <url>http://maven.apache.org</url>
+	<name>automationProject</name>
+	<url>http://maven.apache.org</url>
 
-  <properties>
-	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<testng.version>6.14.3</testng.version>
 		<default.testng>testng.xml</default.testng>
 		<selenium.java.version>3.2.0</selenium.java.version>
@@ -22,19 +23,19 @@
 	</properties>
 
 	<dependencies>
-	<dependency>
-		    <groupId>org.testng</groupId>
-		    <artifactId>testng</artifactId>
-		    <version>${testng.version}</version>
-		    <scope>test</scope>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testng.version}</version>
+			<scope>test</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>ru.yandex.qatools.ashot</groupId>
 			<artifactId>ashot</artifactId>
 			<version>1.5.4</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-email</artifactId>
@@ -58,11 +59,11 @@
 			<artifactId>log4j</artifactId>
 			<version>${log4j.version}</version>
 		</dependency>
-		
+
 		<dependency>
-	      <groupId>com.google.guava</groupId>
-	      <artifactId>guava</artifactId>
-	      <version>21.0</version>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>21.0</version>
 		</dependency>
 
 	</dependencies>
@@ -102,7 +103,7 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.1</version>
 				<configuration>
-				<argLine>-Dfile.encoding=UTF-8</argLine>
+					<argLine>-Dfile.encoding=UTF-8</argLine>
 					<suiteXmlFiles>
 						<suiteXmlFile>tests/${default.testng}</suiteXmlFile>
 					</suiteXmlFiles>
