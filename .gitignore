@@ -18,3 +18,53 @@ automationProject/target/classes/com/automationProject/listener/BaseTestListener
 automationProject/target/classes/com/automationProject/base/DriverManager.class
 automationProject/target/classes/com/automationProject/base/BrowserFactory.class
 automationProject/target/classes/com/automationProject/base/BaseTest.class
+automationProject/log/logfile.log
+automationProject/target/classes/com/automationProject/page/MainPage.class
+automationProject/target/classes/com/automationProject/page/base/BasePage$1.class
+automationProject/target/classes/com/automationProject/test/LoginPageTest.class
+automationProject/test-output/testng.css
+automationProject/test-output/navigator-bullet.png
+automationProject/test-output/jquery-1.7.1.min.js
+automationProject/test-output/index.html
+automationProject/test-output/failed.png
+automationProject/test-output/collapseall.gif
+automationProject/test-output/bullet_point.png
+automationProject/test-output/skipped.png
+automationProject/test-output/report.rar
+automationProject/test-output/passed.png
+automationProject/test-output/old/LoginPageTest/main.html
+automationProject/test-output/old/LoginPageTest/index.html
+automationProject/test-output/old/LoginPageTest/groups.html
+automationProject/test-output/old/LoginPageTest/classes.html
+automationProject/test-output/old/LoginPageTest/Login Page Test Suite.properties
+automationProject/test-output/old/Default suite/toc.html
+automationProject/test-output/old/Default suite/testng.xml.html
+automationProject/test-output/old/Default suite/reporter-output.html
+automationProject/test-output/old/Default suite/methods.html
+automationProject/test-output/old/Default suite/methods-not-run.html
+automationProject/test-output/old/Default suite/methods-alphabetical.html
+automationProject/test-output/old/Default suite/main.html
+automationProject/test-output/old/Default suite/index.html
+automationProject/test-output/old/Default suite/groups.html
+automationProject/test-output/old/Default suite/classes.html
+automationProject/test-output/old/Default suite/Default test.properties
+automationProject/test-output/junitreports/TEST-com.automationProject.test.LoginPageTest.xml
+automationProject/test-output/testng-results.xml
+automationProject/test-output/testng-reports.js
+automationProject/test-output/testng-reports.css
+automationProject/test-output/testng-failed.xml
+automationProject/test-output/report/automation_report.html
+automationProject/test-output/report/ErrorScreenshots/successLoginTest.jpg
+automationProject/test-output/old/index.html
+automationProject/test-output/old/LoginPageTest/toc.html
+automationProject/test-output/old/LoginPageTest/testng.xml.html
+automationProject/test-output/old/LoginPageTest/reporter-output.html
+automationProject/test-output/old/LoginPageTest/methods.html
+automationProject/test-output/old/LoginPageTest/methods-not-run.html
+automationProject/test-output/old/LoginPageTest/methods-alphabetical.html
+automationProject/test-output/LoginPageTest/testng-failed.xml
+automationProject/test-output/LoginPageTest/Login Page Test Suite.xml
+automationProject/test-output/LoginPageTest/Login Page Test Suite.html
+automationProject/test-output/Default suite/testng-failed.xml
+automationProject/test-output/Default suite/Default test.xml
+automationProject/test-output/Default suite/Default test.html

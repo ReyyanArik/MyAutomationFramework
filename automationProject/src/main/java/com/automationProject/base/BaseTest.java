@@ -16,19 +16,19 @@ import com.automationProject.util.Utilities;
 import com.automationProject.base.DriverManager;
 
 public class BaseTest {
-	
+
 	protected WebDriver driver;
+
 	protected static final Logger logTest = Logger.getLogger(BaseTest.class);
-	public static String BASEURL = System.getProperty("app.baseurl","");
+	private static DriverManager driverManager = null;
+	private static AppConfiguration appConfiguration = null;
+
+	public static String BASEURL = null;
 	public static String USERNAME = null;
 	public static String PASS = null;
-	private static DriverManager driverManager = null;
 	public static String remote = null;
 	public static String gridURL = null;
 	public static String browser = null;
-	public static String environment = null;
-
-	private static AppConfiguration appConfiguration = null;
 
 	@BeforeSuite
 	public void beforeSuite() {
@@ -58,8 +58,14 @@ public class BaseTest {
 
 		appConfiguration = new AppConfiguration();
 
+		BASEURL = String.valueOf(config.getProperty(AppPropertyType.BASE_URL.getValue()));
+		appConfiguration.setBaseurl(BASEURL);
+
 		USERNAME = String.valueOf(config.getProperty(AppPropertyType.USERNAME.getValue()));
 		appConfiguration.setUsername(USERNAME);
+		
+		PASS = String.valueOf(config.getProperty(AppPropertyType.PASSWORD.getValue()));
+		appConfiguration.setPassword(PASS);
 
 		remote = String.valueOf(config.getProperty(AppPropertyType.REMOTE.getValue()));
 		appConfiguration.setRemote(remote);

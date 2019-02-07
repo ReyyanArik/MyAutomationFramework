@@ -5,7 +5,7 @@
 		<parameter name="testName" value="LoginPageTest" />
 		<parameter name="testCategory" value="LoginPageTest" />
 		<classes>
-			<class name="com.automationProject.test.LoginPageTests"></class>
+			<class name="com.automationProject.test.LoginPageTest"></class>
 		</classes>
 	</test>
 </suite>
