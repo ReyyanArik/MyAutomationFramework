@@ -68,3 +68,9 @@ automationProject/test-output/LoginPageTest/Login Page Test Suite.html
 automationProject/test-output/Default suite/testng-failed.xml
 automationProject/test-output/Default suite/Default test.xml
 automationProject/test-output/Default suite/Default test.html
+
+\.classpath
+
+\.settings/
+
+automationProject/
